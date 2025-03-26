@@ -10,6 +10,12 @@ __pycache__/
 .Python
 build/
 develop-eggs/
+./src/ReconAI/models/
+./src/ReconAI/data/
+./src/ReconAI/__pycache__/
+./src/ReconAI/src/__pycache__/
+./src/ui/data/
+./src/venv
 dist/
 downloads/
 eggs/
