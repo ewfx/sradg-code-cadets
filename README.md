@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 ReconAI
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,11 +14,9 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our project is Smart Reconciliation. We have built an anomaly detector to flag anomalous entries for the reconciliation breaks. The insights are generated using LLM.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
