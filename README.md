@@ -6,9 +6,7 @@
 - [Inspiration](#inspiration)
 - [What It Does](#what-it-does)
 - [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
 - [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
 - [Team](#team)
 
 ---
@@ -19,40 +17,36 @@ Our project is Smart Reconciliation. We have built an anomaly detector to flag a
 ## 🎥 Demo
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot 1](https://github.com/ewfx/sradg-code-cadets/blob/main/artifacts/demo/result.png)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The reconcilers manually process the reconciliation breaks and detecting anomalies by analysing manually is a time consuming and tedious process. In our application systems, we have reconciliation processes and hence we wanted to implement the problem statement.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+1. Detect anomalies, define anomaly score
+2. Streamlit UI for easy use
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+1. Numpy, Pandas
+2. OpenAI
+3. Seaborn
+4. Transformers
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/sradg-code-cadets.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt (for Python)
    ```
-3. Run the project  
+3. Add the current.xlsx and historical.xlsx to data folder
+4. Run the project  
    ```sh
-   npm start  # or python app.py
+   python main.py
    ```
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Recon AI** 
